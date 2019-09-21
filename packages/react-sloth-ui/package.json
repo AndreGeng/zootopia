@@ -3,9 +3,10 @@
   "version": "1.0.1-alpha.3",
   "description": "",
   "main": "./lib/index.js",
+  "module": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "build": "rollup -c",
     "start": "start-storybook"
   },
