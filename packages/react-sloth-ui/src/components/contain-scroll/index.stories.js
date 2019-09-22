@@ -1,7 +1,7 @@
 import React from "react";
 import ContainScroll from "./index";
 import Mask from "../mask";
-import "./stories.less";
+import "./stories.pcss";
 
 import readme from "./readme.md";
 
