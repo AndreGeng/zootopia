@@ -25,9 +25,9 @@ class ContainScroll extends React.PureComponent {
         touch.screenY - this.preY < 0)
     ) {
       // 判断默认行为是否可以被禁用
-      if (event.cancelable) {
+      if (e.cancelable) {
         // 判断默认行为是否已经被禁用
-        if (!event.defaultPrevented) {
+        if (!e.defaultPrevented) {
           e.preventDefault();
         }
       }
